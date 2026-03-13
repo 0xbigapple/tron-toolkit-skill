@@ -24,11 +24,18 @@ Copy `scripts/config.example.json` to `scripts/config.json` and add your TronGri
 
 ```json
 {
-  "fullHost": "https://api.trongrid.io",
+  "fullHost": "https://api.trongrid.io", 
   "apiKey": "your-trongrid-api-key-here",
   "privateKey": "01"
 }
 ```
+
+## Testnet & Faucets
+
+For development and testing, you can use the TRON testnet.You can obtain test TRX from their official faucets.
+
+- **Nile FullHost**: [https://nile.trongrid.io/](https://nile.trongrid.io/)
+- **Nile Faucets**: [https://nileex.io/join/getJoinPage](https://nileex.io/join/getJoinPage)
 
 ## Usage
 

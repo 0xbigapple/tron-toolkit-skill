@@ -99,6 +99,17 @@ When interpreting query results, ALWAYS read `{baseDir}/references/field-referen
 | `TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR` | WTRX (Wrapped TRX) |
 | `T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb` | Native TRX Placeholder (e.g. JustLend) / Burn |
 
+## Testnet & Faucets
+
+When developing or testing, use the following testnets and their respective faucets to obtain test TRX:
+
+- **Nile FullHost**: [https://nile.trongrid.io/](https://nile.trongrid.io/)
+- **Nile Faucets**: [https://nileex.io/join/getJoinPage](https://nileex.io/join/getJoinPage)
+
+> **🤖 AI INSTRUCTION:** DO NOT attempt to programmatically interact with or fetch these faucet URLs (e.g., via `curl` or `web_fetch`). They require human verification (reCAPTCHA/Discord). If a user needs testnet TRX, immediately provide them the link and instruct them to claim it manually in their web browser.
+
+To switch to a testnet, update the `fullHost` in your `config.json` file.
+
 ## Ad-hoc Scripts
 
 For queries not covered by existing commands, write a one-off script:
