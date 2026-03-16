@@ -2,8 +2,6 @@
 
 A comprehensive skill for querying and analyzing the TRON blockchain. Powered by the official TronWeb SDK.
 
-**⚠️ SECURITY WARNING: Never write a private key with mainnet assets into any configuration file.**
-
 ## Features
 - **Universal API Wrapper**: Access any endpoint of the TronWeb SDK directly from the CLI.
 - **On-chain Analysis**: Pre-built scripts for analyzing address behavior, transfer flows, and token records.
